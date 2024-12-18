@@ -1,0 +1,16 @@
+[package]
+name = "no_db_minimal"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+actix-files = "0.6.6"
+actix-multipart = "0.4"
+futures-util = "0.3"
+html-escape = "0.2"
+env_logger = "0.11"
+log = "0.4"
+uuid = { version = "1.3.0", features = ["v4"] }
+image = "0.24"
+mime_guess = "2.0"
